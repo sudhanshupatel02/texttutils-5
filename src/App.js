@@ -27,7 +27,7 @@ function App() { //video 12
       setMode('dark');
       document.body.style.background="grey"
       showAlert("Dark mode has been enabled","success");
-      document.title = 'TextUtils - Dark Mode';
+      // document.title = 'TextUtils - Dark Mode';
       // setInterval(() => {
       //   document.title = 'TextUtils is Amozing Mode';
       // }, 2000);
@@ -39,7 +39,7 @@ function App() { //video 12
       setMode('light');
       document.body.style.background="white"
       showAlert("light mode has been enabled","success");
-      document.title = 'TextUtils - Light Mode';
+      // document.title = 'TextUtils - Light Mode';
     }
   }
   return (
@@ -51,7 +51,7 @@ function App() { //video 12
     <Alert alert={alert}/>
     <div className="container my-3">
     <Routes>
-          <Route  path="/about" element={<About mode={mode} />}>
+          <Route  path="/about" element={<About mode={mode}/>}>
           </Route>
           <Route  path="/" element={<TextForm showAlert={showAlert} heading="Try TextUtils - word counter, character counter, remove extra spaces" mode={mode}/>}>
           </Route>
