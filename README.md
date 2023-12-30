@@ -5,8 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+![Screenshot 2023-12-30 182050](https://github.com/sudhanshupatel02/texttutils-5/assets/112975449/de30bce1-5bb2-4698-aa17-0355a1b2b2c4)
 
 ### `npm start`
+![Screenshot 2023-12-30 182008](https://github.com/sudhanshupatel02/texttutils-5/assets/112975449/5085e7ac-6dfe-43c0-a7d8-d4dbb66e333f)
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
